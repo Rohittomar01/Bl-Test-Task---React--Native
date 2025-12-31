@@ -28,20 +28,11 @@ With Metro running, open a new terminal window/pane from the root of your React 
 # Using npm
 npm run android
 
-# OR using Yarn
 yarn android
 ```
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
 
-```sh
-# Using npm
-npm run ios
 
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+If everything is set up correctly, you should see your new app running in the Android Emulator, or your connected device.
 
 This is one way to run your app — you can also build it directly from Android Studio or Xcode.
 
@@ -54,7 +45,6 @@ Open `App.tsx` in your text editor of choice and make some changes. When you sav
 When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
 
 - **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
 
 ## Congratulations! :tada:
 
