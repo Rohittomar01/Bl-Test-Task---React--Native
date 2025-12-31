@@ -84,7 +84,7 @@ export default function CartScreen({ navigation }: any) {
               style={styles.checkoutButton}
               onPress={() => {
                 dispatch(clearCart()); // Clear the cart
-                navigation.navigate('OrderSuccess'); // Navigate to success screen
+                navigation.replace('OrderSuccess'); // Navigate to success screen
               }}
             >
               <Text style={styles.checkoutButtonText}>Proceed to Checkout</Text>
